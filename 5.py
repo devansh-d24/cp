@@ -1,5 +1,5 @@
-for i in range(5):
-    print("*", end="")
-    for j in range(3):
-        print("_", end=" ")
-    print("*")
+N = int(input("Enter N: "))
+total = 0
+for i in range(1, N + 1):
+    total += i
+print("Sum:", total)

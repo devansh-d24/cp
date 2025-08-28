@@ -1,7 +1,5 @@
-for i in range(1, 6):
-    for j in range(i):
-        print("*", end="")
-    print(" ", end="")
-    for k in range(i):
-        print("*", end="")
-    print()
+A = input("Enter a number: ")
+if A == A[::-1]:
+    print("Yes")
+else:
+    print("No")
